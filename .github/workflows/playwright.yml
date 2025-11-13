@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
-      BASEURL: ${{vars.BASEURL}}
+      PLAYWRIGHT_URL: ${{vars.PLAYWRIGHT_URL}}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
